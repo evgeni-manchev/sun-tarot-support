@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sun Tarot Privacy Policy</title>
+  <style>
+    :root { --navy:#101a38; --gold:#8a6200; --ink:#202533; --muted:#657087; --paper:#fffdf7; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--paper); color:var(--ink); font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    main { max-width:760px; margin:0 auto; padding:56px 24px 72px; }
+    h1,h2 { color:var(--navy); line-height:1.2; }
+    h1 { font-size:clamp(2rem,6vw,3rem); margin-bottom:8px; }
+    h2 { font-size:1.25rem; margin-top:36px; }
+    .date { color:var(--muted); }
+    a { color:var(--gold); }
+    footer { margin-top:48px; color:var(--muted); font-size:.9rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Sun Tarot Privacy Policy</h1>
+    <p class="date">Effective date: August 10, 2026</p>
+
+    <p>Sun Tarot is designed for insight, reflection, entertainment, and personal journaling. This Privacy Policy explains what information is processed when you use the Sun Tarot iOS app.</p>
+
+    <h2>1. Information processed</h2>
+    <p><strong>Reading data:</strong> When you request an interpretation, the cards drawn in the app are sent through our Cloudflare Worker to OpenAI to generate the interpretation. Sun Tarot does not use this reading data for advertising, analytics, or profiling.</p>
+    <p><strong>Device identifier:</strong> Sun Tarot sends a pseudonymous device identifier to our Cloudflare Worker. It is used only to enforce the app’s daily reading limit. It is not used to identify you by name and is not used for advertising or tracking. The identifier should be retained only for as long as necessary to enforce the limit.</p>
+    <p><strong>Local app data:</strong> Reading history and app preferences are stored locally on your device. Sun Tarot does not upload your reading history to its own database. You can remove locally stored history using the controls provided in the app, or by deleting the app from your device.</p>
+
+    <h2>2. Service providers</h2>
+    <p>Cloudflare provides the infrastructure for the Worker and KV storage used to process requests and enforce the daily limit. OpenAI processes the cards sent with a request to generate an interpretation. These providers may process information in countries where they or their service providers operate. Sun Tarot does not use analytics, crash-reporting, advertising, or tracking SDKs.</p>
+
+    <h2>3. Retention</h2>
+    <p>Reading history remains on your device unless you remove it. The pseudonymous device identifier is retained in the rate-limiting system only for the period needed to enforce the daily limit. Sun Tarot does not intentionally retain interpretation requests as a personal reading-history database. Please configure and verify the relevant Cloudflare and OpenAI settings so this statement matches the actual service configuration.</p>
+
+    <h2>4. Your choices and requests</h2>
+    <p>You may stop transmission of reading data by not requesting an interpretation. You may delete locally stored history using the app’s controls or by deleting the app. For privacy questions or requests concerning information processed through the service, contact us at <a href="mailto:evgenism@yahoo.com">evgenism@yahoo.com</a>.</p>
+
+    <h2>5. Children</h2>
+    <p>Sun Tarot is not directed to children under 13, and we do not knowingly collect personal information from children under 13.</p>
+
+    <h2>6. Security and changes</h2>
+    <p>We use reasonable measures to protect information while it is being transmitted and processed. No internet transmission or electronic storage system can be guaranteed to be completely secure. We may update this Privacy Policy from time to time; the effective date above will show when it was last revised.</p>
+
+    <h2>7. Contact</h2>
+    <p>Sun Tarot is the public operator of the Sun Tarot application. For privacy questions or support requests, contact <a href="mailto:evgenism@yahoo.com">evgenism@yahoo.com</a>.</p>
+
+    <p><em>This policy describes the app’s current intended data practices and is not legal advice.</em></p>
+    <footer><a href="index.html">Back to Sun Tarot Support</a></footer>
+  </main>
+</body>
+</html>
